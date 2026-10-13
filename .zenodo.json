@@ -1,0 +1,21 @@
+{
+  "title": "GaIA Coin (R44): Arquitetura de Borda, Compartimentação e Regras Sociais",
+  "upload_type": "software",
+  "description": "Protocolo GaIA Coin R44 com processamento distribuído de borda, trava temporal de 365 dias, compartimentação estrita, proteção social e auditoria de oráculo.",
+  "creators": [
+    {
+      "name": "Elias, Antônio Alberto Lopes",
+      "affiliation": "SOUNAVY / GaIA IP",
+      "orcid": "0000-0002-5602-9916"
+    }
+  ],
+  "keywords": [
+    "Edge Computing",
+    "GaIA Coin",
+    "R44 Protocol",
+    "D-Commerce",
+    "ESG Asset"
+  ],
+  "access_right": "open",
+  "license": "MIT"
+}
