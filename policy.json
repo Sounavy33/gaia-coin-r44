@@ -1,0 +1,66 @@
+{
+  "mode": "balanced",
+  "description": "Política local da Gaia para liberdade com responsabilidade. A ideia é permitir expressão ampla, mas bloquear ações explícitas de dano, assédio grave, violência, fraude, extorsão e abuso de menores.",
+  "rules": [
+    {
+      "id": "illegal_action",
+      "type": "block",
+      "match": [
+        "como fabricar explosivo",
+        "como fazer bomba",
+        "como roubar senha",
+        "como hackear",
+        "como invadir sistema",
+        "como criar malware",
+        "como extorquir",
+        "como fazer fraude",
+        "como criar vírus"
+      ],
+      "message": "Restrição local: instruções para dano, fraude, extorsão ou invasão não são permitidas."
+    },
+    {
+      "id": "violence",
+      "type": "block",
+      "match": [
+        "matar alguem",
+        "assassinar",
+        "violencia extrema",
+        "como causar dano corporal"
+      ],
+      "message": "Restrição local: violência física ou dano extremo não é permitido."
+    },
+    {
+      "id": "sexual_abuse_minors",
+      "type": "block",
+      "match": [
+        "abuso sexual de menor",
+        "exploração infantil",
+        "sexual com criança"
+      ],
+      "message": "Restrição local: abuso de menores e exploração sexual são proibidos."
+    },
+    {
+      "id": "harassment",
+      "type": "warn",
+      "match": [
+        "ofender",
+        "humilhar",
+        "ameacar",
+        "intimidar"
+      ],
+      "message": "Aviso: linguagem de assédio, ameaça ou humilhação pode ser reduzida ou reescrita."
+    },
+    {
+      "id": "freedom_expression",
+      "type": "allow",
+      "match": [
+        "opiniao",
+        "debate",
+        "discussao",
+        "ideia",
+        "liberdade de expressao"
+      ],
+      "message": "Expressão política, acadêmica ou artística é permitida em contexto de debate, salvo quando houver dano real ou abuso."
+    }
+  ]
+}
